@@ -12,8 +12,8 @@ An analogue clock built with HTML, CSS and plain Javascript
         document.documentElement.style.setProperty('--start-seconds', second);
         document.documentElement.style.setProperty('--start-minutes', minute);
         document.documentElement.style.setProperty('--start-hours', hour);
-    </script>
-    <style>
+</script>
+<style type="text/css">
         body {
             width: 100vw;
             height: 100vh;
@@ -96,8 +96,8 @@ An analogue clock built with HTML, CSS and plain Javascript
                 transform: rotate(calc(var(--start-hours) * 30deg + 450deg)) translate(-50%, 0px);
             }
         }
-    </style>
-    <body>
+</style>
+<body>
     <div class="container">
         <div class="clockFace">
             <div style="position: absolute; top: 0;">12</div>
