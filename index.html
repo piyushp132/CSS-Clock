@@ -70,7 +70,7 @@
             background-color: cyan;
             border-radius: 2px;
             transform: rotate(calc(var(--start-minutes) * 6deg + 90deg)) translate(-50%, 0px);
-            animation: rotateMinutesHand 3600s steps(600) infinite;
+            animation: rotateMinutesHand 3600s steps(60) infinite;
             animation-delay: calc(var(--start-seconds) * -1 * 1s);
         }
 
@@ -80,7 +80,7 @@
             background: green;
             border-radius: 4px;
             transform: rotate(calc(var(--start-hours) * 30deg + 90deg)) translate(-50%, 0px);
-            animation: rotateHoursHand calc(12 * 60 * 60s) steps(600) linear infinite;
+            animation: rotateHoursHand calc(12 * 60 * 60s) steps(60) linear infinite;
             animation-delay: calc(calc(var(--start-minutes) * -60 * 1s) + calc(var(--start-seconds) * -1 * 1s));
         }
 
