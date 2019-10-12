@@ -2,5 +2,7 @@
 An analogue clock built with HTML, CSS and plain Javascript
 
 <div>
-  <iframe src="index.html"></iframe>
+  <figure class="video_container">
+<iframe src="index.html"></iframe>
+</figure>
 </div>
